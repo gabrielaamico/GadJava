@@ -8,6 +8,5 @@ public class Exercises {
         System.arraycopy(copyForm, 2, copyTo, 0, 7);
         System.out.println(copyTo);
 
-
     }
 }
