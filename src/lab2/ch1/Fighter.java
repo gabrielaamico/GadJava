@@ -1,6 +1,7 @@
 package lab2.ch1;
 
 public class Fighter {
+    public static int counter;
     private String name;
     private int health;
     private int damagePerAttack;
@@ -9,6 +10,7 @@ public class Fighter {
      this.name = name;
      this.health = health;
      this.damagePerAttack = damagePerAttack;
+     counter++;
  }
 
  public void attack(Fighter f){
@@ -21,5 +23,9 @@ public class Fighter {
 
  public int getHealth(){
      return health;
+ }
+
+ public static int getNumberOfFighters(){
+     return counter;
  }
 }
