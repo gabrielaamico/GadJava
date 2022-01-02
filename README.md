@@ -11,10 +11,7 @@ Continut:
 4. Clasa Main in care se vor face "cumparaturile". Se introduce de la tastatura articolul dorit si vor fi afisate denumirea si pretul.
 
 EX:
-    Add something in your basket: jeans
-    Flared Jeans
-    50$
-    
+   
     Add something in your basket: dress
     Midi Dress
     35$
@@ -23,3 +20,6 @@ EX:
     Denim Jacket
     55$
 
+    Add something in your basket: jeans
+    Flared Jeans
+    50$
