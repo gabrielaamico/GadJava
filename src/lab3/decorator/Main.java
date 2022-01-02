@@ -13,5 +13,6 @@ public class Main {
         Milk milkTea = new Milk(tea);
 
         System.out.println(milkTea.getDescription());
+        System.out.println(milkTea.getCost());
     }
 }
